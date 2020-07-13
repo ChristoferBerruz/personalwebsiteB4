@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #e5e5e5;
+}
+
+.navbar-dark{
+	background-color: #fda324;
+}
+
+h2, h5{
+    font-weight: bold;
+}
+.row-content{
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	min-height: 400px;
+}
+
+.row-header{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.card-competition img{
+    height: 220px;
+}
+
+.card-work img{
+    max-height: 250px;
+    width: 80%;
+}
+
+.footer{
+    background: #ffbd60;
+    margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+}
+
+.jumbotron{
+    background-color: #303960;
+    color: #ffffff;
+}
+
+
