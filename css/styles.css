@@ -22,12 +22,13 @@ h2, h5{
 }
 
 .card-competition img{
+    min-height: 240px;
     height: 100%;
 }
 
 .card-work img{
-    max-height: 80%;
-    width: 80%;
+    max-height: 70%;
+    width: 70%;
 }
 
 .footer{
