@@ -22,11 +22,11 @@ h2, h5{
 }
 
 .card-competition img{
-    height: 220px;
+    height: 100%;
 }
 
 .card-work img{
-    max-height: 250px;
+    max-height: 80%;
     width: 80%;
 }
 
