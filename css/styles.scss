@@ -1,0 +1,49 @@
+$sans-serif: 'Poppins', sans-serif;
+$background-primary: #e5e5e5;
+$background-secondary: #fda324;
+$background-secondary-light: #ffbd60;
+$background-jumbotron: #303960;
+$text-light: #ffffff;
+
+body{
+    font-family: $sans-serif;
+    background: $background-primary;
+}
+
+.navbar-dark{
+    background-color: $background-secondary;
+}
+
+h2, h5{
+    font-weight: bold;
+}
+
+.row-content{
+	margin: 0px auto;
+	padding: 10px 0px 10px 0px;
+}
+
+.row-header{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.card-competition img{
+    max-height: 100%;
+}
+
+.card-work img{
+    max-height: 70%;
+    max-width: 70%;
+}
+
+.footer{
+    background: $background-secondary-light;
+    margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+}
+
+.jumbotron{
+    background-color: $background-jumbotron;
+    color: $text-light;
+}

@@ -1,43 +1,33 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    background: #e5e5e5;
-}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e5e5e5; }
 
-.navbar-dark{
-	background-color: #fda324;
-}
+.navbar-dark {
+  background-color: #fda324; }
 
-h2, h5{
-    font-weight: bold;
-}
-.row-content{
-	margin: 0px auto;
-	padding: 10px 0px 10px 0px;
-}
+h2, h5 {
+  font-weight: bold; }
 
-.row-header{
-	margin: 0px auto;
-	padding: 0px auto;
-}
+.row-content {
+  margin: 0px auto;
+  padding: 10px 0px 10px 0px; }
 
-.card-competition img{
-    max-height: 100%;
-}
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto; }
 
-.card-work img{
-    max-height: 70%;
-    max-width: 70%;
-}
+.card-competition img {
+  max-height: 100%; }
 
-.footer{
-    background: #ffbd60;
-    margin: 0px auto;
-	padding: 20px 0px 0px 0px;
-}
+.card-work img {
+  max-height: 70%;
+  max-width: 70%; }
 
-.jumbotron{
-    background-color: #303960;
-    color: #ffffff;
-}
+.footer {
+  background: #ffbd60;
+  margin: 0px auto;
+  padding: 20px 0px 0px 0px; }
 
-
+.jumbotron {
+  background-color: #303960;
+  color: #ffffff; }
