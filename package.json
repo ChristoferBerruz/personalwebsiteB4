@@ -7,7 +7,14 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "scss": "node-sass -o css/ css/"
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts && copyfiles -f files/* dist/files",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin aboutwebsite.html -d dist --htmlmin -o dist/aboutwebsite.html && usemin resume.html -d dist --htmlmin -o dist/resume.html",
+    "build": "npm run clean npm && npm run copyfonts && npm run imagemin && npm run usemin"
   },
   "author": "Christofer Berruz",
   "license": "ISC",
@@ -19,7 +26,13 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
     "lite-server": "^2.5.4",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   }
 }
